@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Variables</title>
+    <script src="validaciones.js"></script>
+  </head>
+  <body>
+    <input type="text" placeholder="ingrese usuario" id="nombre_usuario" />
+    <br />
+    <input
+      type="number"
+      placeholder="ingrese año nacimiento"
+      id="anoNacimiento_usuario"
+    />
+    <br />
+    <input
+      type="text"
+      placeholder="ingrese contraseña"
+      id="contrasena_usuario"
+    />
+    <br />
+    <input
+      type="submit"
+      value="Enviar1"
+      id="agregar"
+      onclick="agregarRegistros()"
+    />
+    <br />
+    <input
+      type="button"
+      value="Mayor"
+      id="buscar"
+      onclick="EncontrarUsuarioPorEdad(registros)"
+    />
+    <p id="arreglo"></p>
+    <br />
+    <p>
+      <script>
+        const arreglo = [10, 11, 3, 20, 5];
+        let busqueda = arreglo.filter((element) => element < 10);
+        console.log("Se busco el numero: " + busqueda);
+      </script>
+    </p>
+  </body>
+</html>
