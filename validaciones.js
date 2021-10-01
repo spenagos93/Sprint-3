@@ -16,6 +16,6 @@ function EncontrarUsuarioPorEdad(arreglo) {
     return(ordenar[0]);
 }
 
-// module.exports.registros = registros;
-// module.exports.EncontrarUsuarioPorEdad = EncontrarUsuarioPorEdad;
-// module.exports.agregarRegistro = agregarRegistro;
+module.exports.registros = registros;
+module.exports.EncontrarUsuarioPorEdad = EncontrarUsuarioPorEdad;
+module.exports.agregarRegistro = agregarRegistro;
